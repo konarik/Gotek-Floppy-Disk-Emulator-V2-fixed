@@ -2674,7 +2674,7 @@
 			)
 		)
 		(property "Value" "10uF/16V"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "75b2ecc3-ef50-4d7a-86cf-c19ee5947645")
 			(effects
@@ -2826,7 +2826,7 @@
 			(uuid "a3d28e47-cfb3-4be9-a30a-f890e9c33c55")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "beafe4ec-034f-472d-bf6b-93974cfc5f70")
 			(effects
