@@ -19,39 +19,39 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 
 ## Seznam součástek
 
-<sup>
+
 | **Reference**                         | **Value**             | **Qty**  |
 | ------------------------------------- | --------------------- | :----:   |
-| BZ1                                   | 5V Passive Buzzer 12mm   |  1 |
-| C1,C2,C4,C7,C8,C9,C10,C12             | 100nF                    |  8 |
-| C3,C11                                | 10uF                     |  2 |
-| C5,C6                                 | 22pF                     |  2 |
-| C13                                   | 10uF/16V                 |  1 |
-| D1,D101                               | LED Green                |  2 |
-| D2                                    | 1N4148                   |  1 |
-| H1                                    | Hole1                    |  1 |
-| H2                                    | Hole2                    |  1 |
-| H3                                    | Hole3                    |  1 |
-| H4                                    | Hole4                    |  1 |
-| J1                                    | Power Connector          |  1 |
-| J2                                    | OLED Display 0.91" Modul |  1 |
-| J3                                    | USB_A                    |  1 |
-| J5                                    | Programming Connector    |  1 |
-| J6                                    | Floppy Data Connector    |  1 |
-| Q1                                    | MMBT2222                 |  1 |
-| Q2,Q3,Q4,Q5,Q6,Q7                     | BSS123                   |  6 |
-| R1                                    | 4K7                      |  1 |
-| R2,R3,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R101,R102 | 1K                       | 24 |
-| R4,R27                                | 10K                      |  2 |
-| R5,R6                                 | 22R                      |  2 |
-| SW1                                   | KY040 Rotary Encoder     |  1 |
-| SW2                                   | DIP Switch               |  1 |
-| U1                                    | AMS1117-3.3              |  1 |
-| U2                                    | STM32F105RBTx            |  1 |
-| U3                                    | STMPS2141                |  1 |
-| U4                                    | 74HCT04                  |  1 |
-| Y1                                    | 8MHz                     |  1 |
-</sup>
+| <sup>BZ1                                   </sup>| <sup>5V Passive Buzzer 12mm   </sup>| <sup> 1 </sup> |
+| <sup>C1,C2,C4,C7,C8,C9,C10,C12             </sup>| <sup>100nF                    </sup>| <sup> 8 </sup> |
+| <sup>C3,C11                                </sup>| <sup>10uF                     </sup>| <sup> 2 </sup> |
+| <sup>C5,C6                                 </sup>| <sup>22pF                     </sup>| <sup> 2 </sup> |
+| <sup>C13                                   </sup>| <sup>10uF/16V                 </sup>| <sup> 1 </sup> |
+| <sup>D1,D101                               </sup>| <sup>LED Green                </sup>| <sup> 2 </sup> |
+| <sup>D2                                    </sup>| <sup>1N4148                   </sup>| <sup> 1 </sup> |
+| <sup>H1                                    </sup>| <sup>Hole1                    </sup>| <sup> 1 </sup> |
+| <sup>H2                                    </sup>| <sup>Hole2                    </sup>| <sup> 1 </sup> |
+| <sup>H3                                    </sup>| <sup>Hole3                    </sup>| <sup> 1 </sup> |
+| <sup>H4                                    </sup>| <sup>Hole4                    </sup>| <sup> 1 </sup> |
+| <sup>J1                                    </sup>| <sup>Power Connector          </sup>| <sup> 1 </sup> |
+| <sup>J2                                    </sup>| <sup>OLED Display 0.91" Modul </sup>| <sup> 1 </sup> |
+| <sup>J3                                    </sup>| <sup>USB_A                    </sup>| <sup> 1 </sup> |
+| <sup>J5                                    </sup>| <sup>Programming Connector    </sup>| <sup> 1 </sup> |
+| <sup>J6                                    </sup>| <sup>Floppy Data Connector    </sup>| <sup> 1 </sup> |
+| <sup>Q1                                    </sup>| <sup>MMBT2222                 </sup>| <sup> 1 </sup> |
+| <sup>Q2,Q3,Q4,Q5,Q6,Q7                     </sup>| <sup>BSS123                   </sup>| <sup> 6 </sup> |
+| <sup>R1                                    </sup>| <sup>4K7                      </sup>| <sup> 1 </sup> |
+| <sup>R2,R3,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R101,R102 </sup> | <sup>1K                      </sup> | <sup>24 </sup> |
+| <sup>R4,R27                                </sup>| <sup>10K                      </sup> | <sup> 2 </sup> |
+| <sup>R5,R6                                 </sup>| <sup>22R                      </sup> | <sup> 2 </sup> |
+| <sup>SW1                                   </sup>| <sup>KY040 Rotary Encoder     </sup> | <sup> 1 </sup> |
+| <sup>SW2                                   </sup>| <sup>DIP Switch               </sup> | <sup> 1 </sup> |
+| <sup>U1                                    </sup>| <sup>AMS1117-3.3              </sup> | <sup> 1 </sup> |
+| <sup>U2                                    </sup>| <sup>STM32F105RBTx            </sup> | <sup> 1 </sup> |
+| <sup>U3                                    </sup>| <sup>STMPS2141                </sup> | <sup> 1 </sup> |
+| <sup>U4                                    </sup>| <sup>74HCT04                  </sup> | <sup> 1 </sup> |
+| <sup>Y1                                    </sup>| <sup>8MHz                     </sup> | <sup> 1 </sup> |
+
 
 ## Oživení
 
