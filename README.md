@@ -19,6 +19,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 
 ## Seznam součástek
 
+<sup>
 | **Reference**                         | **Value**             | **Qty**  |
 | ------------------------------------- | --------------------- | :----:   |
 | BZ1                                   | 5V Passive Buzzer 12mm   |  1 |
@@ -50,6 +51,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 | U3                                    | STMPS2141                |  1 |
 | U4                                    | 74HCT04                  |  1 |
 | Y1                                    | 8MHz                     |  1 |
+</sup>
 
 ## Oživení
 
