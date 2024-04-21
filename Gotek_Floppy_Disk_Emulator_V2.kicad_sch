@@ -6757,6 +6757,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 237.49 66.04)
@@ -6769,6 +6871,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02163fc1-3ea6-4728-8e61-8e1a36cba682")
+	)
+	(junction
+		(at 78.74 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "027fb9ad-2cf9-425a-9be8-3c1b4ba8019b")
 	)
 	(junction
 		(at 280.67 66.04)
@@ -7053,6 +7161,12 @@
 		(uuid "81494601-a42e-4dce-af95-e3fdc26026d3")
 	)
 	(junction
+		(at 99.06 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826c2a46-1890-491e-9cc4-f3efdb2ec9ef")
+	)
+	(junction
 		(at 69.85 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7155,6 +7269,12 @@
 		(uuid "bcc2c59d-32ae-46d3-999e-41ac5ed70659")
 	)
 	(junction
+		(at 88.9 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf171d19-4867-4794-9dab-d3818f535e93")
+	)
+	(junction
 		(at 240.03 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7207,6 +7327,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e63b4f6d-b6ad-490e-91bd-84aba5d56967")
+	)
+	(junction
+		(at 104.14 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e687c522-c767-4105-9924-1f71a52f6fc9")
 	)
 	(junction
 		(at 63.5 142.24)
@@ -7437,6 +7563,16 @@
 			(type default)
 		)
 		(uuid "06d969bf-33d0-493e-a7c1-63e47fe9f470")
+	)
+	(wire
+		(pts
+			(xy 88.9 185.42) (xy 99.06 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b7e4f1-407f-402b-9502-58535c6c0aed")
 	)
 	(wire
 		(pts
@@ -8570,7 +8706,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 38.1) (xy 104.14 40.64)
+			(xy 104.14 22.86) (xy 104.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8780,6 +8916,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 182.88) (xy 99.06 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60320424-0458-4f11-8033-d8beb7815b2e")
+	)
+	(wire
+		(pts
 			(xy 257.81 35.56) (xy 257.81 34.29)
 		)
 		(stroke
@@ -8817,6 +8963,16 @@
 			(type default)
 		)
 		(uuid "61c93729-1993-4e0e-b79e-2cd0b1b5d2bd")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62289e55-b2e8-4b93-8c5d-2ff75da659c5")
 	)
 	(wire
 		(pts
@@ -9090,6 +9246,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 39.37) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752f6549-20e7-4220-941d-f6a6954aeb3a")
+	)
+	(wire
+		(pts
 			(xy 201.93 24.13) (xy 204.47 24.13)
 		)
 		(stroke
@@ -9210,6 +9376,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 185.42) (xy 109.22 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfb8a50-0984-4f4a-af04-da86d7e8279d")
+	)
+	(wire
+		(pts
 			(xy 237.49 66.04) (xy 265.43 66.04)
 		)
 		(stroke
@@ -9237,6 +9413,16 @@
 			(type default)
 		)
 		(uuid "83343d2a-f8d4-44c3-b886-10e55f263ac7")
+	)
+	(wire
+		(pts
+			(xy 78.74 185.42) (xy 78.74 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833fed51-0a8d-4b7c-90d4-f80b8a51d37e")
 	)
 	(wire
 		(pts
@@ -9380,6 +9566,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 185.42) (xy 88.9 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d53b6ec-84c8-448a-840a-f3fe8b118884")
+	)
+	(wire
+		(pts
 			(xy 240.03 35.56) (xy 240.03 34.29)
 		)
 		(stroke
@@ -9407,6 +9603,16 @@
 			(type default)
 		)
 		(uuid "9197bd0d-0e2b-4fc4-be75-758328a7a63e")
+	)
+	(wire
+		(pts
+			(xy 99.06 185.42) (xy 109.22 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91df0630-25eb-40fa-8296-454bf4165b99")
 	)
 	(wire
 		(pts
@@ -10380,6 +10586,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 182.88) (xy 78.74 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0388658-b090-42b8-bd71-b402d9faa702")
+	)
+	(wire
+		(pts
 			(xy 88.9 58.42) (xy 88.9 55.88)
 		)
 		(stroke
@@ -10830,6 +11046,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 22.86) (xy 110.49 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e875ce12-67f2-43bf-aa9e-aff3766c8405")
+	)
+	(wire
+		(pts
 			(xy 26.67 80.01) (xy 26.67 78.74)
 		)
 		(stroke
@@ -10970,6 +11196,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 182.88) (xy 88.9 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f35ad442-b994-4641-8e88-b3441f562000")
+	)
+	(wire
+		(pts
 			(xy 49.53 48.26) (xy 49.53 46.99)
 		)
 		(stroke
@@ -11077,6 +11313,16 @@
 			(type default)
 		)
 		(uuid "fb782ccc-c14d-4978-9a06-052f8c432733")
+	)
+	(wire
+		(pts
+			(xy 110.49 48.26) (xy 110.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7a7cb0-ee8d-4a4b-b350-287c27b7a1d2")
 	)
 	(wire
 		(pts
@@ -12433,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQFP-64_10x10mm_P0.5mm"
+		(property "Footprint" "Gotek_Floppy_Disk_Emulator_V2:LQFP-64_10x10mm_P0.5mm"
 			(at 68.58 147.32 0)
 			(effects
 				(font
@@ -14617,7 +14863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile"
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile"
 			(at 203.2 67.31 0)
 			(effects
 				(font
@@ -14839,23 +15085,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005e19c703")
 		(property "Reference" "D1"
-			(at 107.1118 52.3494 90)
+			(at 102.1335 53.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "LED Green"
-			(at 107.1118 54.6608 90)
+			(at 102.1335 56.1523 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
@@ -14971,7 +15218,7 @@
 	)
 	(symbol
 		(lib_id "Gotek_Floppy_Disk_Emulator_V2:+3V3")
-		(at 104.14 38.1 0)
+		(at 104.14 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14979,7 +15226,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e1b6b9c")
 		(property "Reference" "#PWR016"
-			(at 104.14 41.91 0)
+			(at 104.14 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14988,7 +15235,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 104.521 33.7058 0)
+			(at 104.521 18.4658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14996,7 +15243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 38.1 0)
+			(at 104.14 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15005,7 +15252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 38.1 0)
+			(at 104.14 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15014,7 +15261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 38.1 0)
+			(at 104.14 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,7 +15299,7 @@
 				)
 			)
 		)
-		(property "Value" "KY040 Rotary Encoder Module"
+		(property "Value" "KY040 Rotary Encoder"
 			(at 32.9692 128.6764 0)
 			(effects
 				(font
@@ -15060,7 +15307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 33.02 137.16 0)
 			(effects
 				(font
@@ -18963,7 +19210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF/16V"
+		(property "Value" "10uF/16V"
 			(at 163.0172 59.563 0)
 			(effects
 				(font
@@ -20141,6 +20388,823 @@
 			(project "Gotek_Floppy_Disk_Emulator_V2"
 				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek_Floppy_Disk_Emulator_V2:+3V3")
+		(at 110.49 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0857141f-0ca4-4537-b494-ea0ff17c8276")
+		(property "Reference" "#PWR0103"
+			(at 110.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.871 18.4658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e74547-5f7b-4886-bff4-73158f627949")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 88.9 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d28623c-3333-43ad-8135-5f7173c378c9")
+		(property "Reference" "H2"
+			(at 91.44 179.0954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole2"
+			(at 91.44 181.4068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DNP"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DNP"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 88.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d7fd24-687e-45f6-b6b1-7b3f2c2acb14")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek_Floppy_Disk_Emulator_V2:R")
+		(at 110.49 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ed21d43-4108-4881-abd0-f3241bfe5dca")
+		(property "Reference" "R102"
+			(at 112.268 34.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 112.268 36.703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 112.268 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a3268e2-1d71-4e06-8fbd-080ee916f691")
+		)
+		(pin "2"
+			(uuid "8ea96397-6b39-44aa-9895-e3d1b35092b0")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek_Floppy_Disk_Emulator_V2:LED")
+		(at 110.49 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bfa7b86-8033-4cd2-bd79-b6856ca652b0")
+		(property "Reference" "D101"
+			(at 113.4618 52.3494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 113.4618 54.6608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15993917-3b2c-4f1f-a264-a584fe3edc3a")
+		)
+		(pin "2"
+			(uuid "414c2f4c-bf3d-437c-97c7-9f444d09d794")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 109.22 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8632c29d-8b41-48d9-a873-d867d83b0f91")
+		(property "Reference" "H4"
+			(at 111.76 179.0954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole4"
+			(at 111.76 181.4068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DNP"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DNP"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eef3d8d-cd50-4801-b92c-8fc87394dede")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek_Floppy_Disk_Emulator_V2:GNDD")
+		(at 78.74 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7648ef2-96bb-4754-9cab-7fccedb1b788")
+		(property "Reference" "#PWR0102"
+			(at 78.74 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 78.8416 190.627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22c2cec6-38f2-494d-99cc-9756a138b5d6")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac3ae2a3-706a-4f71-8a84-ed6a3f3db1bf")
+		(property "Reference" "H3"
+			(at 101.6 179.0954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole3"
+			(at 101.6 181.4068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DNP"
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DNP"
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 99.06 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "754a0123-66a1-40d6-9e3c-97ffbbe524bd")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 78.74 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1511ec3-01c3-44b3-8c26-9e723131fc30")
+		(property "Reference" "H1"
+			(at 81.28 179.0954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole1"
+			(at 81.28 181.4068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DNP"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DNP"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "DNP"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "DNP"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DNP"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b15ac42-b0ec-46e1-9b5a-67a24e78519e")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gotek_Floppy_Disk_Emulator_V2:R")
+		(at 110.49 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4a300ef-ea2f-42b1-8c58-a1349f87b1f9")
+		(property "Reference" "R101"
+			(at 112.268 43.2816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 112.268 45.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 112.268 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eed9931-c1bb-4cf5-b132-8237c47e7c68")
+		)
+		(pin "2"
+			(uuid "3f2f1990-602e-4e3c-9370-ceb5a1032a5c")
+		)
+		(instances
+			(project "Gotek_Floppy_Disk_Emulator_V2"
+				(path "/e437549b-d9eb-46de-ae75-b64f04da4194"
+					(reference "R101")
 					(unit 1)
 				)
 			)
