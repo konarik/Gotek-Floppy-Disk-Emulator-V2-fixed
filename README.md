@@ -3,6 +3,14 @@ Fixed PCB from original [Gotek-Floppy-Disk-Emulator-V2](https://github.com/Richa
 * Change Buzzer type from Active to Passive (single click on drive motor step)
 * Change "Buzzer_12x9.5RM7.6" footprint to "Buzzer_12x9.5RM6.5"
 
+New modifications in V2.1:
+* SMD Crystal
+* 2nd SMD diode
+* electrolytic capacitor replaced with 10uF MLCC
+* decoupling capacitors moved close to the MCU
+* added mounting holes
+* generated production files for JLCPCB except through hole parts and 8bit SMD switch
+
 # Gotek Floppy Disk Emulator V2
 
 ![Gotek Floppy Disk Emulator V2](Fotky/Gotek_V2_PCB_Top_osazeny.jpg "Gotek Floppy Disk Emulator V2")
@@ -11,33 +19,36 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 
 ## Seznam součástek
 
-| **Ref**                                                                                                  | **Qnty** | **Value**                   | **Cmp name**                   |
-| -------------------------------------------------------------------------------------------------------- | :------: | --------------------------- | ------------------------------ |
-| BZ1,                                                                                                     | 1        | 5V Passive Buzzer 12mm      | Buzzer                         |
-| C1, C2, C4, C7, C8, C9, C10, C12,                                                                        | 8        | 100nF                       | C                              |
-| C3, C11,                                                                                                 | 2        | 10uF                        | C                              |
-| C5, C6,                                                                                                  | 2        | 22pF                        | C                              |
-| C13,                                                                                                     | 1        | 4.7uF/16V                   | CP                             |
-| D1,                                                                                                      | 1        | LED Green                   | LED                            |
-| D2,                                                                                                      | 1        | 1N4148                      | D                              |
-| J1,                                                                                                      | 1        | Power Connector             | Conn\_01x04                    |
-| J2,                                                                                                      | 1        | OLED Display 0.91" Module   | OLED\_Display\_0.91"\_Module   |
-| J3,                                                                                                      | 1        | USB\_A                      | USB\_A                         |
-| J5,                                                                                                      | 1        | Programming Connector       | Conn\_02x05\_Odd\_Even         |
-| J6,                                                                                                      | 1        | Floppy Data Connector       | Conn\_02x17\_Odd\_Even         |
-| Q1,                                                                                                      | 1        | MMBT2222                    | Q\_NPN\_BEC                    |
-| Q2, Q3, Q4, Q5, Q6, Q7,                                                                                  | 6        | BSS123                      | BSS123                         |
-| R1,                                                                                                      | 1        | 4K7                         | R                              |
-| R2, R3, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, | 22       | 1K                          | R                              |
-| R4, R27                                                                                                  | 2        | 10K                         | R                              |
-| R5, R6,                                                                                                  | 2        | 22R                         | R                              |
-| SW1,                                                                                                     | 1        | KY040 Rotary Encoder Module | KY040\_Rotary\_Encoder\_Module |
-| SW2,                                                                                                     | 1        | DIP Switch                  | DIP\_Switch                    |
-| U1,                                                                                                      | 1        | AMS1117-3.3                 | AMS1117-3.3                    |
-| U2,                                                                                                      | 1        | STM32F105RBTx               | STM32F105RBTx                  |
-| U3,                                                                                                      | 1        | STMPS2141                   | STMPS2141                      |
-| U4,                                                                                                      | 1        | 74HCT04                     | 74HCT04                        |
-| Y1,                                                                                                      | 1        | 8MHz                        | Crystal                        |
+Reference                                                                                     Value                   Footprint                                                                     Qty 
+BZ1                                                                                           5V Passive Buzzer 12mm  Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM6.5                                 1
+C1,C2,C4,C7,C8,C9,C10,C12                                                                     100nF                   Capacitor_SMD:C_1206_3216Metric                                                  8
+C3,C11                                                                                        10uF                    Capacitor_SMD:C_1206_3216Metric                                                  2
+C5,C6                                                                                         22pF                    Capacitor_SMD:C_0402_1005Metric                                                  2
+C13                                                                                           10uF/16V                Capacitor_SMD:C_1206_3216Metric                                                  1
+D1,D101                                                                                       LED Green               -- mixed values --                                                               2
+D2                                                                                            1N4148                  Diode_SMD:D_SOD-123                                                              1
+H1                                                                                            Hole1                   MountingHole:MountingHole_3.2mm_M3_Pad_Via                                       1
+H2                                                                                            Hole2                   MountingHole:MountingHole_3.2mm_M3_Pad_Via                                       1
+H3                                                                                            Hole3                   MountingHole:MountingHole_3.2mm_M3_Pad_Via                                       1
+H4                                                                                            Hole4                   MountingHole:MountingHole_3.2mm_M3_Pad_Via                                       1
+J1                                                                                            Power Connector         Gotek_Floppy_Disk_Emulator_V2:PinHeader_1x04_P2.54mm_Horizontal                  1
+J2                                                                                            OLED Display 0.91" ModulGotek_Floppy_Disk_Emulator_V2:OLED_Display_0.91_Module                           1
+J3                                                                                            USB_A                   Gotek_Floppy_Disk_Emulator_V2:USB_A_Stewart_SS-52100-001_Horizontal              1
+J5                                                                                            Programming Connector   Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical                       1
+J6                                                                                            Floppy Data Connector   Gotek_Floppy_Disk_Emulator_V2:PinHeader_2x17_P2.54mm_Horizontal                  1
+Q1                                                                                            MMBT2222                Package_TO_SOT_SMD:SOT-23                                                        1
+Q2,Q3,Q4,Q5,Q6,Q7                                                                             BSS123                  Package_TO_SOT_SMD:SOT-23                                                        6
+R1                                                                                            4K7                     Resistor_SMD:R_1206_3216Metric                                                   1
+R2,R3,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R101,R102  1K                      Resistor_SMD:R_1206_3216Metric                                                  24
+R4,R27                                                                                        10K                     Resistor_SMD:R_1206_3216Metric                                                   2
+R5,R6                                                                                         22R                     Resistor_SMD:R_1206_3216Metric                                                   2
+SW1                                                                                           KY040 Rotary Encoder    Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical                       1
+SW2                                                                                           DIP Switch              Button_Switch_SMD:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W8.61mm_P2.54mm_LowProfile    1
+U1                                                                                            AMS1117-3.3             Package_TO_SOT_SMD:SOT-223-3_TabPin2                                             1
+U2                                                                                            STM32F105RBTx           Gotek_Floppy_Disk_Emulator_V2:LQFP-64_10x10mm_P0.5mm                             1
+U3                                                                                            STMPS2141               Package_TO_SOT_SMD:SOT-23-5                                                      1
+U4                                                                                            74HCT04                 Package_SO:SOIC-14_3.9x8.7mm_P1.27mm                                             1
+Y1                                                                                            8MHz                    Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm                                          1
 
 ## Oživení
 
