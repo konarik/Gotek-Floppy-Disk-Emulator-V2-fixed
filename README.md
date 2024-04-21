@@ -20,6 +20,7 @@ Emulátor disketové mechaniky starých počítačů a různých zařízení. So
 ## Seznam součástek
 
 | **Reference**                                                                                     | **Value**                   | **Footprint**                                                                     | **Qty**  |
+| :---                                                                                              | :---                        | :---                                                                              | :---:    |
 | BZ1                                                                                               | 5V Passive Buzzer 12mm      | Gotek_Floppy_Disk_Emulator_V2:Buzzer_12x9.5RM6.5                                  |    1     |
 | C1,C2,C4,C7,C8,C9,C10,C12                                                                         | 100nF                       | Capacitor_SMD:C_1206_3216Metric                                                   |    8     |
 | C3,C11                                                                                            | 10uF                        | Capacitor_SMD:C_1206_3216Metric                                                   |    2     |
